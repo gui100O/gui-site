@@ -1,0 +1,204 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0084ff;
+    padding: 10px 0;
+    height: 50px;
+}
+
+header h1 {
+    color: #0084ff;
+    text-align: center;
+    margin-top: 45px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #87cefa;
+}
+
+.missao-e-visao {
+    color: #0084ff;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.missao-e-visao .banner {
+    margin-bottom: 20px;
+}
+
+.missao-e-visao .descricao-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.descricao-card {
+    background-color: #f0f8ff;
+    border: 1px solid #0084ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    color: #7f8c8d;
+    font-style: italic;
+    text-align: center;
+}
+
+.descricao-card h3 {
+    color: #0084ff;
+}
+
+.equipe-principal {
+    text-align: center;
+    margin: 40px 0;
+    color: #0084ff;
+    display: flex;
+    justify-content: center;
+}
+
+.equipe-principal-card {
+    background-color: #f0f8ff;
+    border: 1px solid #0084ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0 auto;
+    width: 20%;
+    color: black;
+    font-style: italic;
+    margin-bottom: 45px;
+}
+
+.equipe-principal-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contato {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f0f8ff;
+    border: 1px solid #0084ff;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    color: #0084ff;
+    margin-bottom: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container label {
+    text-align: left;
+    color: #0084ff;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-container input,
+.form-container textarea {
+    width: 97%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #0084ff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.form-container input:focus,
+.form-container textarea:focus {
+    border-color: #87cefa;
+}
+
+.form-container button {
+    background-color: #0084ff;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #87cefa;
+}
+
+.rodape {
+    background-color: #0084ff;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 40px;
+}
+
+.container-rodape {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.rodape p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.rodape-nav {
+    margin: 15px 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rodape-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.rodape-nav a:hover {
+    color: #87cefa;
+}
+
+.creditos {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #f0f8ff;
+}
+
+.titulo-equipe {
+    color:#0084ff;
+    text-align: center;
+}
